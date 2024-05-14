@@ -27,3 +27,7 @@ Napp/src/test/java/vic/mawinda/composequickrun/ui/screens/TipCalculatorTests.kt
 Mapp/src/androidTest/java/vic/mawinda/composequickrun/ui/screens/TipUITests.kt,6/6/66b99adf16a9f71292913dfc6f55122dea139458
 s
 Capp/src/main/java/vic/mawinda/composequickrun/ui/screens/ArtWork.kt,9/a/9a2a05876359ce1aa5127ed66d920c8224331227
+y
+Iapp/src/androidTest/java/vic/mawinda/composequickrun/model/Affirmation.kt,c/0/c0524b0040099fd1c69272f92317c1fb10e3b702
+w
+Gapp/src/androidTest/java/vic/mawinda/composequickrun/data/Datasource.kt,c/e/ce8f031b3f292bc08466185f329e2a9bb2a1937c

@@ -31,3 +31,7 @@ y
 Iapp/src/androidTest/java/vic/mawinda/composequickrun/model/Affirmation.kt,c/0/c0524b0040099fd1c69272f92317c1fb10e3b702
 w
 Gapp/src/androidTest/java/vic/mawinda/composequickrun/data/Datasource.kt,c/e/ce8f031b3f292bc08466185f329e2a9bb2a1937c
+z
+Japp/src/main/java/vic/mawinda/composequickrun/ui/screens/AffirmationApp.kt,0/d/0d23288f0bff38bc219882300b2f1dbd37e067dc
+p
+@app/src/main/java/vic/mawinda/composequickrun/data/Datasource.kt,c/4/c46f2b1aabcc2f6b9f8d193069322c44a55d81a6

@@ -27,3 +27,6 @@ Napp/src/test/java/vic/mawinda/composequickrun/ui/screens/TipCalculatorTests.kt
 Mapp/src/androidTest/java/vic/mawinda/composequickrun/ui/screens/TipUITests.kt,6/6/66b99adf16a9f71292913dfc6f55122dea139458
 s
 Capp/src/main/java/vic/mawinda/composequickrun/ui/screens/ArtWork.kt,9/a/9a2a05876359ce1aa5127ed66d920c8224331227
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

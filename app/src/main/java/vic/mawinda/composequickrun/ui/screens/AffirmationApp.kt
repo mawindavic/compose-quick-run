@@ -55,7 +55,7 @@ fun AffirmationApp() {
                     .calculateEndPadding(layoutDirection)
             )
     ) {
-        AffirmationList(affirmationList = Datasource().loadAffirmations())
+        AffirmationList(affirmationList = Datasource.loadAffirmations())
     }
     
 }

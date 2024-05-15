@@ -35,3 +35,11 @@ z
 Japp/src/main/java/vic/mawinda/composequickrun/ui/screens/AffirmationApp.kt,0/d/0d23288f0bff38bc219882300b2f1dbd37e067dc
 p
 @app/src/main/java/vic/mawinda/composequickrun/data/Datasource.kt,c/4/c46f2b1aabcc2f6b9f8d193069322c44a55d81a6
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+t
+Dapp/src/main/java/vic/mawinda/composequickrun/ui/screens/TopicApp.kt,e/a/eace51cd133e5a80a2a02004823f8d2320336cae
+r
+Bapp/src/main/java/vic/mawinda/composequickrun/model/Affirmation.kt,8/a/8add74f9cb050bc3e56f3dde090c10d9e29e1ae1
+l
+<app/src/main/java/vic/mawinda/composequickrun/model/Topic.kt,4/2/4285afada994680a8cfa51408d88b8b1724a7dbf

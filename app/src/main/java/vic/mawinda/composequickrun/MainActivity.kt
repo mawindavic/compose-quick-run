@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import vic.mawinda.composequickrun.ui.screens.AffirmationApp
+import vic.mawinda.composequickrun.ui.screens.TopicApp
 import vic.mawinda.composequickrun.ui.theme.ComposeQuickRunTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +19,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
                 ) { //ArtWorkApp()
                     
-                    AffirmationApp()
+                    // AffirmationApp()
+                    
+                    TopicApp()
                     
                     //CalculatorApp()
                     

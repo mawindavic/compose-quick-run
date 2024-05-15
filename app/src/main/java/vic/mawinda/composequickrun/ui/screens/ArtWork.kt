@@ -23,7 +23,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -69,10 +69,10 @@ val arts = listOf(
 @Composable
 fun ArtWorkApp(modifier: Modifier = Modifier) {
     var currentSelection by remember {
-        mutableStateOf(0)
+        mutableIntStateOf(0)
     }
     
-    val artWork: ArtWork = arts.get(currentSelection)
+    val artWork: ArtWork = arts[currentSelection]
     
     Scaffold(topBar = {
         CenterAlignedTopAppBar(title = { Text(text = "Art Work", fontWeight = FontWeight.Medium) })
@@ -122,7 +122,7 @@ fun ArtWorkApp(modifier: Modifier = Modifier) {
                     .padding(horizontal = 8.dp), horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Button(onClick = {
-                    if(arts.get(currentSelection) == arts.first()) {
+                    if(arts[currentSelection] == arts.first()) {
                         currentSelection = arts.indexOf(arts.last())
                     } else {
                         currentSelection--
@@ -132,7 +132,7 @@ fun ArtWorkApp(modifier: Modifier = Modifier) {
                 }
                 
                 Button(onClick = {
-                    if(arts.get(currentSelection) == arts.last()) {
+                    if(arts[currentSelection] == arts.last()) {
                         currentSelection = 0
                     } else {
                         currentSelection++
